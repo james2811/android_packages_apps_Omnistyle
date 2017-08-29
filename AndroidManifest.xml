@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <application
         android:allowBackup="false"
         android:label="OmniStyle"
-        android:icon="@drawable/waterslides_icon"
+        android:icon="@drawable/candy_icon"
         android:theme="@style/Theme.OmniStyle" >
         <activity
             android:name=".BrowseHeaderActivity"
@@ -116,22 +116,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </intent-filter>
         </activity>
         <activity
-            android:name=".logos_collection"
-            android:label="Logos Collection (daytime)" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".logos_interval"
-            android:label="Logos Collection (interval)" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".nature_random"
             android:label="Nature (random)" >
             <intent-filter>
@@ -164,40 +148,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </intent-filter>
         </activity>
         <activity
-            android:name=".wavvy"
-            android:label="Wavvy" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".aqua_color"
-            android:label="@string/aqua_color_title" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".aqua_color_logo"
-            android:label="@string/aqua_color_logo_title" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".aqua_dark"
-            android:label="@string/aqua_dark_title" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".theme"
             android:label="Theme" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wavvy"
+            android:label="Wavvy" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />

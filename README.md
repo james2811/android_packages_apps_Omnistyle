@@ -70,6 +70,7 @@ the quickbar images will become hard to see.
 ## Contributors ##
 + Travis Hall
 + Syed Sajid
++ Aaron Wieneke
 
 TODO
 -----
@@ -93,3 +94,4 @@ assets/wallpaper.xml
 ```xml
     <wallpaper image="wall_name" creator="optional creator name" />
 ```
+
